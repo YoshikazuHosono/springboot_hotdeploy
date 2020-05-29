@@ -12,7 +12,7 @@ public class DemoController {
     @GetMapping("/hello/{name}")
     public String hello(@PathVariable String name) {
         return "Sorry " + name + " ... I'm cold ...";
-//        return "hello " + name + " ! I'm hot !!!";
+//        return "Hello " + name + " ! I'm hot !!!";
     }
 
 }
